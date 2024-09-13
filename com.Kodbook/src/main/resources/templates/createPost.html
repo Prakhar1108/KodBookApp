@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Create Post</title>
+</head>
+<body>
+<form action="/createPost" method="post" enctype="multipart/form-data">
+<h1>KodBook Application</h1>
+<label><b>Caption:</b> </label>
+<br><br>
+<textArea name=caption rows="4" cols="50" Placeholder="Post Caption"></textArea>
+<br><br>
+<input type=file name=photo accept=image/*>
+<br><br>
+<input type="submit" value="POST">
+</form>
+
+
+</body>
+</html>
